@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    row-gap: 8px;
+}
+
+.container-info {}
+
+.title {
+    font-size: 30px;
+}
+
+.text {
+    color: grey;
+}
+
+.menu {}
+
+input[type='text'] {
+    height: 40px;
+}
+
+.btn {
+    background-color: rgb(80, 98, 238);
+    border: none;
+    color: white;
+    height: 40px;
+    cursor: pointer;
+}
+
+.result {
+    color: green;
+    font-size: 20px;
+}
