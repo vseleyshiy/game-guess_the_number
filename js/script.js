@@ -25,5 +25,6 @@ function correctResult() {
     currentNum++
     if (input.value === shuffleNumber[0]) {
         result.innerHTML = 'Поздравляю! Ты угадал число ' + shuffleNumber[0] + ' за ' + currentNum + ' попыток!';
-    };
+    } else input.value = '';
+
 };
